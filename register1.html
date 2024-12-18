@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Product - E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body style="background-color: rgb(99, 180, 177);">
+    
+    <main>
+        <div class="registration-container">
+            <h2>Register Your Product</h2>
+            <form id="productRegistrationForm">
+                <label for="userName">Your Name</label>
+                <input type="text" id="userName" name="userName" required>
+                <br>
+                <br>
+                
+                <label for="productName">Product Name</label>
+                <input type="text" id="productName" name="productName" required>
+                <br>
+                <br>
+
+                <label for="numberOfProducts">Number of Products</label>
+                <input type="number" id="numberOfProducts" name="numberOfProducts" required>
+                <br>
+                <br>
+                
+                <label for="brand">Brand</label>
+                <input type="text" id="brand" name="brand" required>
+                <br>
+                <br>
+                
+                <label for="model">Model</label>
+                <input type="text" id="model" name="model" required>
+                <br>
+                <br>
+                
+                <label for="dateOfPurchase">Date of Purchase</label>
+                <input type="date" id="dateOfPurchase" name="dateOfPurchase" required>
+                <br>
+                <br>
+                
+                
+                
+                <label for="description">Description of Product</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                <br>
+                <br>
+                
+                <label for="expectedPrice">Expected Price Point</label>
+                <input type="number" id="expectedPrice" name="expectedPrice" required>
+                <br>
+                <br>
+                
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                <br>
+                <br>
+                
+                
+                <button type="submit"><a href="aboutproduct.html" onclick="reg">Continue<< </a></button>
+                <button type="reset">Clear</button>
+                <br>
+                <br>
+            </form>
+        </div>
+    </main>
+    <center>
+        <button type="submit" class="back"><a href="sb.html" onclick="reg">Back</a></button>
+    </center>
+
+    <center>
+    <footer>
+        <p>&copy; 2024 E-Waste Management Solutions. All Rights Reserved.</p>
+    </footer>
+</center>
+</body>
+</html>
